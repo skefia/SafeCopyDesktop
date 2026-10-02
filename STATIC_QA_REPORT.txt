@@ -1,0 +1,144 @@
+SafeCopy Desktop v4.7.2 — Static Final QA Report
+
+PASS: 138
+FAIL: 0
+Core SHA-256: d6e7595f6cd6db00ff7fa9023236ba4273145b82f6359a996f73a2ec052a5e1b
+
+[PASS] required file SafeCopy.Desktop.csproj
+[PASS] required file App.xaml
+[PASS] required file MainWindow.xaml
+[PASS] required file ConflictWindow.xaml
+[PASS] required file MainWindow.xaml.cs
+[PASS] required file MainWindow.V45.cs
+[PASS] required file MainWindow.V46.cs
+[PASS] required file MainWindow.V47.cs
+[PASS] required file Core/SafeCopy_Core.ps1
+[PASS] required file Run-FinalQA.ps1
+[PASS] required file QA/ServiceSmoke/Program.cs
+[PASS] required file README.md
+[PASS] required file FINAL_QA_STATUS.md
+[PASS] required file QA_NOTES_v4.7.2.md
+[PASS] Version 4.7.2
+[PASS] FileVersion 4.7.2.0
+[PASS] AssemblyVersion 4.7.2.0
+[PASS] WPF target
+[PASS] QA source exclusion
+[PASS] SQLite 10.0.12
+[PASS] Core embedded
+[PASS] single-file self-contained
+[PASS] no stale v4.7.1 refs
+[PASS] XAML parse App.xaml
+[PASS] unique names App.xaml — 2
+[PASS] handlers resolve App.xaml — 0 refs; []
+[PASS] XAML parse MainWindow.xaml
+[PASS] unique names MainWindow.xaml — 200
+[PASS] handlers resolve MainWindow.xaml — 97 refs; []
+[PASS] XAML parse ConflictWindow.xaml
+[PASS] unique names ConflictWindow.xaml — 10
+[PASS] handlers resolve ConflictWindow.xaml — 6 refs; []
+[PASS] MainWindow badge v4.7.2
+[PASS] C# structure App.xaml.cs
+[PASS] C# structure ConflictWindow.xaml.cs
+[PASS] C# structure MainWindow.V45.cs
+[PASS] C# structure MainWindow.V46.cs
+[PASS] C# structure MainWindow.V47.cs
+[PASS] C# structure MainWindow.xaml.cs
+[PASS] C# structure Models/AppSettings.cs
+[PASS] C# structure Models/ConflictItem.cs
+[PASS] C# structure Models/ConflictScanProgress.cs
+[PASS] C# structure Models/ConflictScanResult.cs
+[PASS] C# structure Models/DiagnosticsModels.cs
+[PASS] C# structure Models/DuplicateFileItem.cs
+[PASS] C# structure Models/DuplicateScanProgress.cs
+[PASS] C# structure Models/DuplicateScanResult.cs
+[PASS] C# structure Models/FolderScanProgress.cs
+[PASS] C# structure Models/FolderScanResult.cs
+[PASS] C# structure Models/FolderSizeItem.cs
+[PASS] C# structure Models/IntegrityManifestModels.cs
+[PASS] C# structure Models/RunMode.cs
+[PASS] C# structure Models/SafeCopyRunOptions.cs
+[PASS] C# structure Models/StorageFileItem.cs
+[PASS] C# structure Models/StorageInsightsModels.cs
+[PASS] C# structure Models/StorageScanProgress.cs
+[PASS] C# structure Models/StorageScanResult.cs
+[PASS] C# structure Models/V47Models.cs
+[PASS] C# structure Models/VssSnapshotInfo.cs
+[PASS] C# structure QA/ServiceSmoke/Program.cs
+[PASS] C# structure Services/ArchiveManagerService.cs
+[PASS] C# structure Services/ConflictScannerService.cs
+[PASS] C# structure Services/DuplicateFinderService.cs
+[PASS] C# structure Services/FolderCompareService.cs
+[PASS] C# structure Services/FolderSizeAnalyzerService.cs
+[PASS] C# structure Services/IncrementalScanDatabaseService.cs
+[PASS] C# structure Services/IntegrityManifestService.cs
+[PASS] C# structure Services/PathHelpers.cs
+[PASS] C# structure Services/PauseController.cs
+[PASS] C# structure Services/PostRunActionService.cs
+[PASS] C# structure Services/ProblemFileScannerService.cs
+[PASS] C# structure Services/ProcessIoMonitor.cs
+[PASS] C# structure Services/ProcessPauseService.cs
+[PASS] C# structure Services/SafeCopyRunner.cs
+[PASS] C# structure Services/SettingsService.cs
+[PASS] C# structure Services/StorageAnalyzerService.cs
+[PASS] C# structure Services/StorageInsightsService.cs
+[PASS] C# structure Services/VssSnapshotService.cs
+[PASS] no operational /MIR
+[PASS] no operational /PURGE
+[PASS] no operational /MOV
+[PASS] no operational /MOVE
+[PASS] core /XX
+[PASS] core /XJ
+[PASS] core /SL
+[PASS] core /COPY:DAT
+[PASS] core /DCOPY:DATE
+[PASS] final audit read-only
+[PASS] versioned verifier
+[PASS] retry failed support
+[PASS] named stream verifier
+[PASS] unique repair-temp cleanup
+[PASS] read-only ProblemFileScannerService.cs — []
+[PASS] read-only FolderCompareService.cs — []
+[PASS] read-only StorageAnalyzerService.cs — []
+[PASS] read-only DuplicateFinderService.cs — []
+[PASS] read-only FolderSizeAnalyzerService.cs — []
+[PASS] read-only StorageInsightsService.cs — []
+[PASS] read-only ConflictScannerService.cs — []
+[PASS] move vanished source fails
+[PASS] resume native result observable
+[PASS] scan DB injectable
+[PASS] monotonic scan generation
+[PASS] partial index persisted
+[PASS] archive output boundary service-enforced
+[PASS] archive root reparse blocked
+[PASS] archive exact verified set
+[PASS] archive exact-file recycle only
+[PASS] archive extraction temp stage
+[PASS] archive extraction ADS guard
+[PASS] archive path traversal guard
+[PASS] manifest prevents overwrite inside root
+[PASS] manifest body integrity
+[PASS] VSS two snapshots
+[PASS] VSS final exact VerifyOnly
+[PASS] VSS final live audit
+[PASS] eject confirmation polling
+[PASS] concurrency guards index/archive
+[PASS] Recycle Bin path present
+[PASS] no PermanentDelete API usage
+[PASS] QA coverage Unicode
+[PASS] QA coverage empty
+[PASS] QA coverage destination-only
+[PASS] QA coverage RetryFailed
+[PASS] QA coverage VerifyOnly
+[PASS] QA coverage named stream
+[PASS] smoke coverage manifest
+[PASS] smoke coverage traversal
+[PASS] smoke coverage incremental
+[PASS] smoke coverage removal
+[PASS] smoke coverage archive
+[PASS] smoke coverage same-size exact conflict
+[PASS] QA runtime-specific restore
+[PASS] docs exact-file recycle
+[PASS] version doc README.md
+[PASS] version doc FINAL_QA_STATUS.md
+[PASS] version doc QA_NOTES_v4.7.2.md
+[PASS] version doc Run-FinalQA.ps1
